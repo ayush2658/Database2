@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cdea6b"
+    android:layout_centerInParent="true"
+    tools:context="com.brillicaservices.database2.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="#000"
+        android:id="@+id/app_label"
+        android:text="Student Management System"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:id="@+id/add"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISPLAY"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:id="@+id/display"/>
+
+</LinearLayout>
